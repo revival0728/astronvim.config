@@ -148,7 +148,8 @@ local config = {
     servers = {
       "clangd",
       "pyright",
-      "tsserver"
+      "tsserver",
+      "rust-analyzer"
     },
     formatting = {
       -- control auto formatting on save
