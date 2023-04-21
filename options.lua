@@ -19,6 +19,7 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     neovide_cursor_vfx_mode = "sonicboom",
     neovide_fullscreen = true,
+    mkdp_browser = '/usr/bin/firefox',
   },
 }
 -- If you need more control, you can use the function()...end notation

@@ -24,6 +24,9 @@ return {
     ["<leader>cpr"] = { "<cmd>CompetiTestRunNC<cr>", desc = "Run tests" },
     ["<leader>cpc"] = { "<cmd>CompetiTestRunNE<cr>", desc = "Compile" },
     ["<leader>cp"] = { name = "Competitive Programming" },
+
+    ["<leader>mp"] = { "<Plug>MarkdownPreview", desc = "Markdown Preview" },
+    ["<leader>m"] = { name = "Markdown" },
   },
   t = {
     -- setting a mapping to false will disable it

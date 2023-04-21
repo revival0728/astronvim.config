@@ -20,7 +20,11 @@ return {
     lazy = false,
   },
   {
-    "iamcco/markdown-preview.nvim"
+    "iamcco/markdown-preview.nvim",
+    build = 'cd app && yarn install',
+    event = function()
+      return { "BufEnter *.md" }
+    end,
   },
   -- { "p00f/cphelper.nvim" },
   {
