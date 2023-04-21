@@ -19,6 +19,9 @@ return {
     as = "nord",
     lazy = false,
   },
+  {
+    "iamcco/markdown-preview.nvim"
+  },
   -- { "p00f/cphelper.nvim" },
   {
 	  'xeluxee/competitest.nvim',
